@@ -22,6 +22,12 @@ function Homepage() {
         >
           Currency Converter
         </NavLink>
+        <NavLink
+          className="text-3xl font-bold transition-transform duration-200 hover:cursor-pointer hover:scale-125"
+          to={"/tic-tac-toe"}
+        >
+          Tic Tac Toe Game
+        </NavLink>
       </div>
     </div>
   );

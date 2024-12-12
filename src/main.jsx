@@ -13,6 +13,7 @@ import Homepage from "./components/Homepage.jsx";
 import ColorChanger from "./components/color_changer/ColorChanger.jsx";
 import PasswordGenerator from "./components/password_generator/PasswordGenerator.jsx";
 import CurrencyConverter from "./components/currency_converter/CurrencyConverter.jsx";
+import TicTacToe from "./components/tic_tac_toe/TicTacToe.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path="/color-changer" element={<ColorChanger />} />
       <Route path="/password-generator" element={<PasswordGenerator />} />
       <Route path="/currency-converter" element={<CurrencyConverter />} />
+      <Route path="/tic-tac-toe" element={<TicTacToe />} />
     </Route>
   )
 );
